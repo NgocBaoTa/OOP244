@@ -1,0 +1,29 @@
+/*/////////////////////////////////////////////////////////////////////////
+						  Workshop - #7 (Reflection)
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	   : 10/07/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+Derived and Base Classes
+ 
+- The derived class: the child in an is-a-kind-of relationship - lower in 
+the hierarchy
+- The base class: the parent in the relationship - higher in the hierarchy
+- The derived class inherits the entire structure of its base class. 
+(instance variables, normal member functions, but not inherit base class's 
+special functions: constructors, destructors or assignment operators)
+
+- Access: 
+    private - bars all access
+    protected - limits access to derived classes only
+    public - unlimited access
+
+- Constructors are not inherited by derived class but execute in order from 
+the base class to the derived class
+- Destructors are not inherited by derived class but execute in order from 
+the derived class to the base class

@@ -1,0 +1,31 @@
+/*/////////////////////////////////////////////////////////////////////////
+			Reflection - #3 
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	   : 06/02/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+Member functions are functions defined within a class that provide the interface 
+for interacting with objects of that class. They can be categorized as queries, 
+modifiers, or special functions. 
+
+Privacy in C++ is achieved through the use of "private" and "public" keywords. 
+By default, all members of a struct are public and all members of a class are 
+private. By declaring members as "private," their accessibility is restricted to 
+within the class itself. Private members cannot be accessed directly from outside 
+the class but can be accessed indirectly through public member functions, thereby 
+enforcing encapsulation and information hiding.
+
+Input and output: The iostream type that represents the standard input and output 
+objects. 
++ cin: It is responsible for extracting a series of characters from the standard 
+input stream. These characters are then converted into a specified type and stored 
+in the system's memory for further use.
++ cout: It facilitates the transfer of data from the computer's memory to an output 
+destination by converting the stored data into a sequence of characters.
+ 

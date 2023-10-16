@@ -1,0 +1,28 @@
+/*/////////////////////////////////////////////////////////////////////////
+						  Workshop - #10 (Reflection)
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	   : 08/04/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+- Function Template: 
+A template in C++ allows you to write generic code that works with different 
+data types specified by the client. It uses angle brackets (< >) to enclose 
+the type parameter definitions. The typename or class keyword is used to 
+identify type placeholders. Templates enable you to create reusable functions 
+and classes that adapt to various data types without duplicating code.
+
+
+- Class Template
+- Constrained Casts:
+Constrained casts in C++ are vital for maintaining type safety. Using keywords 
+like static_cast, reinterpret_cast, const_cast, and dynamic_cast, developers 
+can safely convert between different types while avoiding ambiguity and 
+bypassing the type system's safeguards. It is recommended to use casts 
+judiciously and localize them to specific contexts when absolutely necessary.
+

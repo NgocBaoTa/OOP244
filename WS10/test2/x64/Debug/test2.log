@@ -1,0 +1,7 @@
+﻿  load.c
+  main.c
+C:\Users\baong\source\repos\OOP244\WS10\test2\main.c(9,13): warning C4101: 'baseMap': unreferenced local variable
+  mapping.c
+  shortest.c
+  Generating Code...
+  test2.vcxproj -> C:\Users\baong\source\repos\OOP244\WS10\test2\x64\Debug\test2.exe

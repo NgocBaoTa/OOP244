@@ -1,0 +1,24 @@
+/*/////////////////////////////////////////////////////////////////////////
+						  Reflection - #4 (P2)
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	   : 06/09/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+- Class privacy: Any member function can access any private member of its class. 
+Different objects share the same code for the member functions but use different 
+instance variables.
+
+- Constructor and Deconstructor:
+	+ Constructor: Constructors are called automatically when the object gets 
+created. An object can have multiple constructors. 
+	+ Destructors are also special member functions that are automatically 
+called when an object is destroyed or go out of scope. An object just has one 
+deconstructor.
+
+- Current Object: The keyword this returns the address of the current object, 
+*this refers to the current object itself

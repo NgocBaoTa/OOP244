@@ -1,0 +1,29 @@
+/*/////////////////////////////////////////////////////////////////////////
+						  Workshop - #8 (Reflection)
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	   : 24/07/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+- Function bindings: The binding of a member function can take either of two forms:
+    + early binding - based on the object's static type
+	Early binding occurs at compile time and is the most efficient binding of a 
+member function call to that function's definition.  Early binding is the default in 
+C++.
+    + dynamic dispatch - based on the object's dynamic type
+	Some programmers include the qualifier virtual in derived class declarations 
+as a form of documentation.  This improves readability but has no syntactic effect.  
+
+- Pure virtual function: 
+The principal component of an abstract base class is a pure virtual member function.  
+Pure refers to the lack of any implementation detail.  That is, a pure virtual 
+function is a signature without a definition. 
+
+- Abstrct classes: The definition of any abstract base class contains or inherits at 
+least one pure virtual member function.  The class definition contains the declaration 
+of the pure virtual function.  We call an abstract base class without any data members 
+a pure interface.  

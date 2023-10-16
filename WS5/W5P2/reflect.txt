@@ -1,0 +1,28 @@
+/*/////////////////////////////////////////////////////////////////////////
+						  Reflection - #5 
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	   : 06/13/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+- Overloading operators enables redefining the behavior of operators for
+class objects:  
+	+ Member operators are defined within the class and have direct access 
+to the class's representation, 	allowing them to manipulate private members. 
+(using operator keyword)
+	+ Helper operators support the class but don't have direct access to 
+its representation. They are separate functions that obtain information from 
+public member functions and don't require access to private members.
+
+- Helper function: obtains all of its information from the public member 
+functions of the class that it supports but does not require access to the 
+private members of its class.
+
+- Friendship: grants helper functions access (read and write access) to the 
+private members of a class (using friend keyword). This allows them to work 
+with the internal data of a class while maintaining encapsulation.

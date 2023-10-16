@@ -1,0 +1,27 @@
+/*/////////////////////////////////////////////////////////////////////////
+						  Workshop - #9 (Reflection)
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	   : 24/07/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+Copy constructor:
+The copy constructor of a derived class calls a constructor of the base class.  
+By default, that constructor is the no-argument constructor.
+But we can override this by calling the base class constructor of our choice.  
+
+Copy assignment operator:
+By default, the derived class's copy assignment operator calls the base class's 
+copy assignment operator. However, when a custom copy assignment operator is 
+present in the derived class, it no longer calls the base class's copy assignment 
+operator automatically. In such cases, an explicit call to the base class's copy 
+assignment operator is required within the body of the derived class's custom 
+copy assignment operator.
+
+
+Direct call copy constructor: the assignment operator copies the base class part 
+of the object and any call to the base class copy constructor is redundant.

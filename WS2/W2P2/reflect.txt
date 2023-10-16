@@ -1,0 +1,31 @@
+/*/////////////////////////////////////////////////////////////////////////
+						  Reflection - #2 (P1)
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	   : 05/24/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+- In Parameter: An in parameter is a pass-by-value parameter. When an argument 
+is passed by value, a copy of the value is made and passed to the function. 
+Any changes made to the parameter within the function do not affect the original 
+value outside the function. 
+
+- Out Parameter: An out parameter is a pass-by-reference parameter, which is 
+used to pass a reference or pointer to a variable into a function. The function 
+can modify the value of the variable, and the changes are visible outside the 
+function. The out parameter allows a function to return multiple values or 
+modify the value of a parameter passed to it. It is typically used when a 
+function needs to update the value of one or more variables declared outside 
+the function.
+
+- Some functions that receive an in parameter in my code:
+	bool load(const char filename[]);
+	void display(const Population& population);
+	bool openFile(const char filename[]);
+These functions take input parameters to perform their operations but do not 
+modify the values of the parameters.

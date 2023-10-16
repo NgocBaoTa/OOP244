@@ -1,0 +1,3 @@
+﻿  TextFile.cpp
+C:\Users\baong\source\repos\OOP244\WS6\WS6\TextFile.cpp(155): warning C4715: 'sdds::TextFile::operator=': not all control paths return a value
+  WS6.vcxproj -> C:\Users\baong\source\repos\OOP244\WS6\WS6\x64\Debug\WS6.exe

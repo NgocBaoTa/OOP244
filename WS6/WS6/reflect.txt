@@ -1,0 +1,28 @@
+/*/////////////////////////////////////////////////////////////////////////
+                          Workshop - #6 (Reflection)
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	   : 07/09/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+- Deep copies and assignments
+	+ Copy constructor: A copy constructor is a special member function 
+in object-oriented programming that allows creating a new object by copying 
+the values of an existing object. It is used in various scenarios, such as 
+object initialization, passing by value, or returning by value. The copy 
+constructor ensures proper object copying and plays a crucial role when 
+dealing with dynamic memory allocation.
+	+ Copy assignment operator is responsible for copying data from one 
+existing object to another. It checks for self-assignment, performs a shallow 
+copy of non-resource variables, deallocates previous resources, allocates new 
+memory, and copies the data. It ensures proper transfer of data between objects.
+
+- File I/O: 
+  + std::ifstream (to create a file object for reading)
+  + std::ofstream (to create a file object for writing)
+  + The is_open() member function called on a file object returns the current 
+state of the object's connection to a file:

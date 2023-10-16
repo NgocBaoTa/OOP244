@@ -1,0 +1,49 @@
+/*/////////////////////////////////////////////////////////////////////////
+						  Reflection - #1 
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Date	     : 05/19/2023
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my 
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+What I've learned in completing this workshop: 
+
+    - Modular design
+      The source code of each module is stored in 2 files: a header file and 
+an implementation file
+    - Compilation safeguards: prevent multiple inclusions of a header in a 
+module (which can lead to redefinition errors or other compilation issues)
+    - Note for creating modules: 
+	  + #include: => against unnecessary and random includes in CPP files. 
+Including header files only when their functions or definitions are required 
+minimizes compilation time and avoids unnecessary dependencies. And, avoiding 
+header file inclusion within other header files, except when necessary, helps 
+prevent circular dependencies and keeps the codebase clean and manageable.
+	  + Global variables: => By placing their declarations in CPP files, 
+they are kept invisible to other modules, reducing the risk of unintended 
+modification. 
+	  + Structure definitions: => Placing them in header files ensures 
+that other modules can access and utilize the structure's members and layout 
+without duplicating the definition.
+ 	  + Constant value declarations: => Add constant value declarations only 
+to the file where they are used to keep them close to their usage. This 
+promotes code clarity and avoids the unnecessary inclusion of constants in 
+unrelated modules.
+ 	  + Namespace: => Enclose code within namespaces helps avoid naming 
+conflicts and ensures that identifiers are unique and clearly associated with
+the specific module. Note: Never use the "using" statement in a header file 
+because it can cause namespace pollution and conflicts when multiple modules 
+include the header.
+
+Difficulties: 
+- C++ supports function overloading which allows the definition of multiple 
+functions with the same name but different parameter types or counts. Although 
+it's more flexible and expressive function definitions, it still caused some 
+confusion for me at the first time.
+- At first, I had some trouble with using namespace because I didn't know clearly
+what is it and why do I need it, therefore, I just put it just in cpp files that 
+caused error.
